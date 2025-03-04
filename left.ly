@@ -66,7 +66,7 @@ left = \absolute {
   gis,4 dis fis8 dis |
   fis,4 dis fis8 dis |
   cis,4 gis, e8 gis, |
-  cis,4 gis, e8 gis, |
+  e,4 b, e |
 
   <<
     {
