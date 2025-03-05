@@ -89,7 +89,7 @@ right = \absolute {
       <ais''' b''' fis''''>2. |
       q2 r8. e''''16 |
       <fis''' b''' dis''''>2. |
-      ais''''2. | \ottava 0
+      ais''''2.\fermata |
     }
     \new Voice {
       \voiceTwo
@@ -114,5 +114,49 @@ right = \absolute {
       s2. |
     }
   >> \oneVoice
+
+  ais''''8 ais''''8 fis'''' fis'''' cis'''' cis''''  |
+  gis''' gis''' dis''' dis''' ais'' ais'' |
+  \ottava 0 \tuplet 5/6 {fis'' fis'' cis'' cis'' gis'} |
+
+  \bar "||"
+  \time 3/4
+
+
+
+
+
+
+  dis''2.~ |
+  2.~ |
+  2.~ |
+  2. |
+
+  \appoggiatura fis''8 dis''2.~ |
+  2.~ |
+  2.~ |
+  2. |
+
+  \appoggiatura fis''8 dis''2.\( |
+  \appoggiatura cis''8 dis''2. |
+  \appoggiatura cis''8 b'2. |
+  \appoggiatura ais'8 b'2. |
+
+  \appoggiatura fis''8 dis''2.\)~ |
+  2.~ |
+  2.~ |
+  2. |
+
+  \appoggiatura fis''8 gis''2.\( |
+  \appoggiatura fis''8 gis''2. |
+  \appoggiatura fis''8 dis''2. |
+  \appoggiatura cis''8 dis''2. |
+
+  \appoggiatura fis''8 dis''2.\)~ |
+  2.~ |
+  2.~ |
+  2. |
+
+
 
 }

@@ -113,6 +113,34 @@ left = \absolute {
       s2. |
       s2. |
     }
-  >> \oneVoice
+  >> \oneVoice \change Staff = "left"
 
+  r2. |
+  r2. |
+  r2. |
+
+  \bar "||"
+  \time 3/4
+  \clef "bass"
+
+  \repeat unfold 6 {
+    <<
+      {
+        \voiceOne
+        r4 <b dis'>-. q |
+        r4 <b dis'>-. q |
+        r4 <b dis'>-. q |
+        r4 <b dis'>-. q |
+      }
+      \new Voice {
+        \voiceTwo
+        gis2. |
+        fis2. |
+        e2. |
+        dis2. |
+      }
+    >> \oneVoice
+  }
+
+  r
 }
