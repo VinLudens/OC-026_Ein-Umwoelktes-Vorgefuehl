@@ -36,7 +36,12 @@ right = \absolute {
   fis''4.-- ais'8-_ b'-_ dis''8 ~ |
   4.-- ais'8-_ b'-_ dis''8-_ |
   e''-_ dis''-_ b'2\) |
-  r2 ais''8\( b'' |
+  r4. ais'8-_\( b'-_ fis''8-_ ~ |
+
+  4.-- ais'8-_ b'-_ dis''8 ~ |
+  4.-- ais'8-_ b'-_ dis''8-_ |
+  fis''-_ ais''-_ fis''2 ~ |
+  4\) r ais''8\( b'' |
 
   fis'''8-> ais'' b'' dis'''-> ais'' b'' |
   fis'''-> ais'' b'' dis'''-> ais'' b'' |

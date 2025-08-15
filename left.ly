@@ -38,6 +38,11 @@ left = \absolute {
   cis-. gis-. e'-. |
   cis-. gis-. e'-. |
 
+  gis4-. dis'-.fis'-. |
+  fis-. dis'-. fis'-. |
+  cis-. gis-. e'-. |
+  cis-. gis-. e'-. |
+
   \clef "treble" gis'4 dis'' fis'' |
   fis' dis'' fis'' |
   cis' gis' e'' |
