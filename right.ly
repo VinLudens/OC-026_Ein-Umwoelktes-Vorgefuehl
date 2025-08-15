@@ -94,7 +94,7 @@ right = \absolute {
       <ais''' b''' fis''''>2. |
       q2 r8. e''''16 |
       <fis''' b''' dis''''>2. |
-      ais''''2. | \ottava 0
+      ais''''2.\fermata | \ottava 0
     }
     \new Voice {
       \voiceTwo
@@ -119,5 +119,47 @@ right = \absolute {
       s2. |
     }
   >> \oneVoice
+
+  \bar "||"
+  % \time 3/4
+  \tempo "Largo" 4. = 108
+
+  \relative c'' {
+    <dis b gis>2. |
+    <cis ais fis>2 b8 ais |
+    <b gis e>2 cis4 |
+    <gis dis b>2 ais8 b |
+
+    <dis b gis>8 fis dis4. 8 |
+    <cis b fis>8 dis cis4 b8 ais |
+    <b gis e>4. cis4 dis8 |
+    <gis, dis b>2 ais8 b |
+
+    dis2.-_ |
+    r4. ais8-_ b-_ cis~ |
+    4. b8-_ ais-_ b~ |
+    2 ais8-_ b-_ |
+
+    dis8-_ fis-_ dis4.-_ 8-_ |
+    cis8-_ dis-_ cis4-_ b8-_ ais-_ |
+    b4.-_ cis4-_ dis8-_ |
+    gis,2-_ ais8-_ b-_ |
+
+    dis2.-_ |
+    r4. ais8-_ b-_ cis~ |
+    4. b8-_ ais-_ b~ |
+    2 ais8-_ b-_ |
+
+    fis'8-_ ais-_ fis4.-_ dis16 fis |
+    dis8-_ fis-_ dis4-_ cis8-_ b-_ |
+    ais8-_ b-_ cis4-_ b8-_ ais-_ |
+    b2. ~ |
+
+    2. ~ |
+    2. |
+    r2. |
+    <ais' dis fis ais>2. |
+
+  }
 
 }

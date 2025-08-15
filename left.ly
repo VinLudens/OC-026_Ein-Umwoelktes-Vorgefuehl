@@ -94,7 +94,7 @@ left = \absolute {
       gis''2.
       fis''
       cis''16 gis'' cis''' e''' cis''' gis'' cis'' gis'' \tuplet 5/4 { cis''' e''' \change Staff = "right" fis''' b''' dis'''' } |
-      s2. |
+      s2. | \change Staff = "left"
     }
     \new Voice {
       \voiceOne
@@ -119,5 +119,47 @@ left = \absolute {
       s2. |
     }
   >> \oneVoice
+
+  \bar "||"
+  % \time 3/4
+  \clef "bass"
+
+  \relative c {
+    <e b' e>2. |
+    <dis ais' dis>2. |
+    <cis gis' cis>2. |
+    <gis dis' gis>2. |
+
+    <e' b' e>2. |
+    <dis ais' dis>2. |
+    <cis gis' cis>2. |
+    <gis dis' gis>2. |
+
+    e'4 b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    e,4-. b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    e,4-. b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    e,4-. b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    gis,-. dis'-. b'-. |
+    gis,-. dis'-. b'-. |
+    gis,2. |
+    <fis fis,>2. |
+
+  }
 
 }
