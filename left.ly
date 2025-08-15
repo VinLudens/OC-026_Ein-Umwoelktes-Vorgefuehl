@@ -160,6 +160,31 @@ left = \absolute {
     gis,2. |
     <fis fis,>2. |
 
+    \time 4/4
+
+    \tuplet 7/4 2 { e,=,,8 b' e gis b e gis b e b gis e b gis } |
+    \tuplet 6/4 2 { cis,=,8[ gis' cis e gis cis] e[ cis gis e cis gis] } |
+    \tuplet 6/4 2 { gis,=,,8[ dis' gis b dis gis] b[ gis dis b gis dis] } |
+    \tuplet 6/4 { fis,=,,8[ cis' fis ais cis fis] }  \tuplet 5/4 { cis ais fis cis ais }
+
+    \tuplet 7/4 2 { e=,,8 b' e gis b e gis b e b gis e b gis } |
+    \tuplet 6/4 2 { cis,=,8[ gis' cis e gis cis] e[ cis gis e cis gis] } |
+    \tuplet 6/4 2 { gis,=,,8[ dis' gis b dis gis] b[ gis dis b gis dis] } |
+    \tuplet 6/4 2 { fis,=,,8[ cis' fis ais cis fis] ais_[ dis fis \change Staff = "right" ais dis fis] } |
+
+    \ottava 1 ais dis fis ais dis2\fermata \ottava 0 \change Staff = "left" |
+
+    <e,,,,= b e,>2 <dis ais dis,>2 |
+    <gis,=, dis gis,>2. ais4 |
+
+    b8 dis gis ais
+    \change Staff = "right" b8 \change Staff = "left" \clef "treble" dis gis ais |
+
+    \change Staff = "right" b8 \change Staff = "left" dis gis ais
+    \change Staff = "right" \ottava 1 b8 dis gis ais |
+
+    b\fermata \ottava 0 \change Staff = "left"
+
   }
 
 }

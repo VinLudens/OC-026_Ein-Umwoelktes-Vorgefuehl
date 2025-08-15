@@ -160,6 +160,29 @@ right = \absolute {
     r2. |
     <ais' dis fis ais>2. |
 
+    \time 4/4 \tempo "Allegro" 4 = 120
+
+    <b dis fis b>4.. cis,16 <dis b fis>4.. b16 |
+    <ais gis dis>4.. gis16 <ais \parenthesize gis dis>4.. b16 |
+    <b gis dis>4.. ais16 q4.. ais16 |
+    <fis dis ais>4.. gis16 q4.. cis16 |
+
+    <dis b fis>4.. cis16 q4.. fis16 |
+    <ais fis cis>4.. b16 q4.. fis16 |
+    <dis b fis>4.. gis16 <fis cis gis>4.. b,16 |
+    <cis ais fis>4.. fis16 <dis ais fis>2 |
+
+    s1 |
+
+    <b=' gis dis>2 <ais fis cis>4 fis |
+    <dis bis gis>1\fermata |
+
+    s1 |
+
+
+    s1 |
+
+    s1 |
   }
 
 }
