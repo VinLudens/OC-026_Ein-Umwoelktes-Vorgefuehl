@@ -183,7 +183,106 @@ left = \absolute {
     \change Staff = "right" b8 \change Staff = "left" dis gis ais
     \change Staff = "right" \ottava 1 b8 dis gis ais |
 
-    b\fermata \ottava 0 \change Staff = "left"
+    b1\fermata \ottava 0 \change Staff = "left" |
+
+    \bar "||" \clef "bass"
+
+    \time 3/4
+
+    e,,,,,=,4 b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    e,4-. b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    e4-. b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    e,4-. b'-. dis-. |
+    dis,-. ais'-. cis-. |
+    cis,-. gis'-. e'-. |
+    gis,,-. dis'-. b'-. |
+
+    \clef "treble" e4 b' dis |
+    dis, ais' cis |
+    cis, gis' e' |
+    gis,, dis' b' |
+
+    e,4 b' dis |
+    dis, ais' cis |
+    cis, gis' e' |
+    b, fis' r |
+
+    \clef "bass" e,=4 b' dis |
+    dis, ais' cis |
+    cis, gis' e' |
+    gis,, dis' b' |
+
+    e,4 b' dis |
+    dis, ais' cis |
+    cis, gis' e' |
+    b, fis' r |
+
+    e,=,4 b' dis8 b |
+    dis,4 ais' cis8 ais |
+    cis,4 gis' e'8 gis, |
+    gis,4 dis' b'8 dis, |
+
+    e=,4 b' dis8 b |
+    dis,4 ais' cis8 ais |
+    cis,4 gis' e'8 gis, |
+    e=,4 b' e |
+
+    <<
+      {
+        \voiceTwo
+        gis,2.
+        fis
+        cis
+        cis
+
+        gis''2.
+        fis
+        cis
+        cis
+
+        \clef "treble" gis''2.
+        fis
+        cis
+        cis
+
+        gis''2.
+        fis
+      }
+      \new Voice {
+        \voiceOne
+        \repeat tremolo 6 { dis,,=16 fis } |
+        \repeat tremolo 6 { dis16 fis } |
+        \repeat tremolo 6 { gis,16 e' } |
+        \repeat tremolo 4 { gis,16 e' } r4 |
+
+        \repeat tremolo 6 { dis'16 fis } |
+        \repeat tremolo 6 { dis16 fis } |
+        \repeat tremolo 6 { gis,16 e' } |
+        \repeat tremolo 4 { gis,16 e' } r4 |
+
+        \repeat tremolo 6 { dis'16 fis } |
+        \repeat tremolo 6 { dis16 fis } |
+        \repeat tremolo 6 { gis,16 e' } |
+        \repeat tremolo 4 { gis,16 e' } r4 |
+
+        \repeat tremolo 6 { dis'16 fis } |
+        \repeat tremolo 6 { dis16 fis } |
+      }
+    >> \oneVoice
+
+    cis,=''16 gis' cis e cis gis cis, gis' \tuplet 5/4 { cis e \change Staff = "right" fis b dis } |
 
   }
 

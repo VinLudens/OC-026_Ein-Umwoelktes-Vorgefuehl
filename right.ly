@@ -182,7 +182,108 @@ right = \absolute {
 
     s1 |
 
-    s1 |
+
+    s2. \ottava 0 r8 ais=16\( b |
+
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo II" 2. = 60
+
+    fis'='4.-- ais,8-_ b-_ dis8 ~ |
+    4.-- ais8-_ b-_ dis8-_ |
+    e-_ dis-_ b2\) |
+    r4. ais8-_\( b-_ fis'8-_ ~ |
+
+    4.-- ais,8-_ b-_ dis8 ~ |
+    4.-- ais8-_ b-_ dis8-_ |
+    fis-_ ais-_ fis2 ~ |
+    4.--\) ais8-_\( b-_ fis'8-_ ~ |
+
+    fis4.-- ais,8-_ b-_ dis8 ~ |
+    4.-- ais8-_ b-_ dis8-_ |
+    e-_ dis-_ b2\) |
+    r4. ais8-_\( b-_ fis'8-_ ~ |
+
+    4.-- ais,8-_ b-_ dis8 ~ |
+    4.-- ais8-_ b-_ dis8-_ |
+    fis-_ ais-_ fis2 ~ |
+    4\) r ais8\( b |
+
+    fis'8-> ais, b dis-> ais b |
+    fis'-> ais, b dis-> ais b |
+    e-> dis b ais b dis |
+    e-> dis b fis b dis |
+
+    fis8-> ais, b dis-> ais b |
+    fis'-> ais, b dis-> ais b |
+    ais' b ais fis cis ais |
+    ais b ais fis\) ais,\( b |
+
+    fis'8-> ais, b dis-> ais b |
+    fis'-> ais, b dis-> ais b |
+    e-> dis b ais b dis |
+    e-> dis b fis b dis |
+
+    fis8-> ais, b dis-> ais b |
+    fis'-> ais, b dis-> ais b |
+    ais' b ais fis cis ais |
+    ais b ais fis\) ais,\( b |
+
+    \clef "bass" fis'8-> ais, b dis-> ais b |
+    fis'-> ais, b dis-> ais b |
+    e-> dis b ais b dis |
+    e-> dis b fis b dis |
+
+    fis8-> ais, b dis-> ais b |
+    fis'-> ais, b dis-> ais b |
+    ais' b ais fis cis ais |
+    gis ais b cis dis e |
+
+    \relative c' <<
+      {
+        \voiceOne
+        <ais b fis'>2.\) |
+        q2 r8. e'16 |
+        <fis, b dis>4.. cis'16 q8. e16 |
+        q2 \tuplet 6/4 { fis,16 b cis \clef "treble" fis b cis } |
+
+        <ais b fis'>2. |
+        q2 r8. e'16 |
+        <fis, b dis>4.. cis'16 q8. e16 |
+        q2 \tuplet 6/4 { fis,16 b cis fis b cis } |
+
+        <ais b fis'>2. |
+        q2 r8. e'16 |
+        <fis, b dis>4.. cis'16 q8. e16 |
+        q2 \tuplet 6/4 { fis,16 b cis \ottava 1 fis b cis } |
+
+        <ais b fis'>2. |
+        q2 r8. e'16 |
+      }
+      \new Voice {
+        \voiceTwo
+        \repeat tremolo 6 { ais,,,,=16 b } |
+        \repeat tremolo 6 { ais16 b } |
+        s2. |
+        s2. |
+
+        \repeat tremolo 6 { ais'16 b } |
+        \repeat tremolo 6 { ais16 b } |
+        s2. |
+        s2. |
+
+        \repeat tremolo 6 { ais'16 b } |
+        \repeat tremolo 6 { ais16 b } |
+        s2. |
+        s2. |
+
+        \repeat tremolo 6 { ais'16 b } |
+        \repeat tremolo 6 { ais16 b } |
+      }
+    >> \oneVoice
+
+    <fis''=''' b dis>2. |
+
   }
 
 }
