@@ -282,8 +282,22 @@ left = \absolute {
       }
     >> \oneVoice
 
-    cis,=''16 gis' cis e cis gis cis, gis' \tuplet 5/4 { cis e \change Staff = "right" fis b dis } |
+    cis,=''16 gis' cis e cis gis cis, gis' cis e \change Staff = "right" \small fis b |
+    \cadenzaOn
+    cis[ dis cis b fis \ottava 0 \change Staff = "left" e cis gis cis,]
+    \change Staff = "right" cis'='''[ dis cis b fis \change Staff = "left" e cis gis cis,]
+    \change Staff = "right" cis'=''[ dis cis b fis \change Staff = "left" e cis gis cis,]
+    \change Staff = "right" \clef "bass" cis'='[ dis cis b fis \change Staff = "left" \normalsize \clef "bass" e cis gis] \cadenzaOff \partial 1024 s1024 |
+    cis,2. |
+
+    \set tieWaitForNote = ##t \stemDown \grace { e=,8~ b} \stemNeutral <e e,>2 ais=,4 |
+    \time 4/4
+    b8 dis fis ais \change Staff = "right" \clef "treble" b \change Staff = "left" \clef "treble" dis fis ais |
+    \change Staff = "right" b \change Staff = "left" dis fis ais \change Staff = "right" \ottava 1 b dis fis ais |
+    cis1\fermata |
 
   }
+
+  \bar "|."
 
 }

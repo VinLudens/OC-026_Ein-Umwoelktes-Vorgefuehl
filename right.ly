@@ -283,7 +283,21 @@ right = \absolute {
     >> \oneVoice
 
     <fis''=''' b dis>2. |
+    \cadenzaOn
+    s2 s16
+    s2 s16
+    s2 s16
+    s2 \cadenzaOff \partial 1024 s1024 |
+    s2. |
+
+    <gis,,,= b dis>2. |
+    \time 4/4
+    s1 |
+    s1 |
+    s1 |
 
   }
+
+  \bar "|."
 
 }
