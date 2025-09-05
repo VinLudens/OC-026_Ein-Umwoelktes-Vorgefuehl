@@ -196,8 +196,8 @@ right = \absolute {
 
     4.-- ais,8-_ b-_ dis8 ~ |
     4.-- ais8-_ b-_ dis8-_ |
-    fis-_ ais-_ fis2 ~ |
-    4.--\) ais8-_\( b-_ fis'8-_ ~ |
+    fis-_ ais-_ fis2\) |
+    r4. ais8-_\( b-_ fis'8-_ ~ |
 
     fis4.-- ais,8-_ b-_ dis8 ~ |
     4.-- ais8-_ b-_ dis8-_ |
