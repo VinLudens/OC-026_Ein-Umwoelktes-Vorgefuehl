@@ -30,8 +30,8 @@ right = \absolute {
 
   4.-- ais8-_ b-_ dis'8 ~ |
   4.-- ais8-_ b-_ dis'8-_ |
-  fis'-_ ais'-_ fis'2 ~ |
-  4.--\) ais'8-_\( b'-_ fis''8-_ ~ |
+  fis'-_ ais'-_ fis'2\) |
+  r4. ais'8-_\( b'-_ fis''8-_ ~ |
 
   fis''4.-- ais'8-_ b'-_ dis''8 ~ |
   4.-- ais'8-_ b'-_ dis''8-_ |
