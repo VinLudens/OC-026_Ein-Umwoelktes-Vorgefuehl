@@ -125,8 +125,8 @@ left = \absolute {
   \clef "bass"
 
   \relative c {
-    <e b' e>2. |
-    <dis ais' dis>2. |
+    <e b' e>2.\arpeggio |
+    <dis ais' dis>2.\arpeggio |
     <cis gis' cis>2. |
     <gis dis' gis>2. |
 
