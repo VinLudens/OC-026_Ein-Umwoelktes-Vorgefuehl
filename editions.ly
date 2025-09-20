@@ -63,3 +63,5 @@ parenmp = #(make-dynamic-script (markup
 \editionMod dynamics 165 0/4 music.Dynamics \dim
 
 \editionMod dynamics 167 0/4 music.Dynamics \pp
+
+\editionMod tweaks 163 0/4 music.Voice.B \once\override Parentheses.font-size = #-1

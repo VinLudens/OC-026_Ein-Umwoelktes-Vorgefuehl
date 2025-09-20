@@ -288,7 +288,7 @@ left = \absolute {
     \change Staff = "right" cis'='''[ dis cis b fis \change Staff = "left" e cis gis cis,]
     \change Staff = "right" cis'=''[ dis cis b fis \change Staff = "left" e cis gis cis,]
     \change Staff = "right" \clef "bass" cis'='[ dis cis b fis \change Staff = "left" \normalsize \clef "bass" e cis gis] \cadenzaOff \partial 1024 s1024 |
-    cis,2. |
+    cis,2.->\parenthesize\fermata |
 
     \set tieWaitForNote = ##t \stemDown \grace { e=,8~ b} \stemNeutral <e e,>2 ais=,4 |
     \time 4/4
