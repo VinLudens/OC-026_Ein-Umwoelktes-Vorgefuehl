@@ -174,7 +174,7 @@ left = \absolute {
 
     \ottava 1 ais dis fis ais dis2\fermata \ottava 0 \change Staff = "left" |
 
-    <e,,,,= b e,>2 <dis ais dis,>2 |
+    <e,,,,= b e,>2\arpeggio <dis ais dis,>2\arpeggio |
     <gis,=, gis,>2. ais4 |
 
     b8 dis gis ais
