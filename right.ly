@@ -75,7 +75,7 @@ right = \absolute {
 
   <<
     {
-      \voiceOne
+      \voiceOne \mergeDifferentlyDottedOn
       <ais b fis'>2.\) |
       q2 r8. e'16 |
       <fis b dis'>4.. cis'16 q8. e'16 |
@@ -118,7 +118,7 @@ right = \absolute {
       s2. |
       s2. |
     }
-  >> \oneVoice
+  >> \oneVoice \mergeDifferentlyDottedOff
 
   \bar "||"
   % \time 3/4
@@ -241,7 +241,7 @@ right = \absolute {
 
     \relative c' <<
       {
-        \voiceOne
+        \voiceOne \mergeDifferentlyDottedOn
         <ais b fis'>2.\) |
         q2 r8. e'16 |
         <fis, b dis>4.. cis'16 q8. e16 |
@@ -280,7 +280,7 @@ right = \absolute {
         \repeat tremolo 6 { ais'16 b } |
         \repeat tremolo 6 { ais16 b } |
       }
-    >> \oneVoice
+    >> \oneVoice \mergeDifferentlyDottedOff
 
     <fis''=''' b dis>2. |
     \cadenzaOn
