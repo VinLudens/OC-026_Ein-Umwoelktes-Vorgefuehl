@@ -6,11 +6,13 @@ right = \absolute {
   \key gis \minor
   \tempo "Adagietto" 4 = 66
 
+  \footnote "" #'(0 . 0) \markup { \super 1 "Optionally, one octave lower" } Staff.OttavaBracket
+  \once\set Staff.ottavation = \markup { \concat { "15" \normal-text \super "1" } }
   \ottava 2
 
   <ais'''>16\arpeggio\(  b''' dis'''' ais''' b''' fis'''' ais''' b''' dis''''8.\) ais'''16\( b''' dis'''' ais''' b''' |
   fis'''' ais''' b''' dis'''' ais''' b''' ais'''' b'''' ~ 8.\) ais''''16\( b'''' ais'''' fis'''' cis'''' |
-  ais''' b''' dis'''' fis''' gis''' b''' dis''' e''' ais'''8.\) ais'''16\( b''' ais''' fis''' cis''' |
+  ais''' b''' dis'''' fis''' gis''' b''' dis''' e''' ais'''8.\) \footnote "2" #'(1 . -2) \markup { \super "2" "Originally indicated ottava 15 if played according to" \super 1 } ais'''16\( b''' ais''' fis''' cis''' |
   \ottava 0 ais'' b'' dis''' fis'' gis'' b'' dis'' e'' ais''8.\) ais''16\( b'' ais'' fis'' cis'' |
 
 
@@ -61,9 +63,9 @@ right = \absolute {
   fis''8-> ais' b' dis''-> ais' b' |
   fis''-> ais' b' dis''-> ais' b' |
   ais'' b'' ais'' fis'' cis'' ais' |
-  ais' b' ais' fis'\) ais\( b |
+  ais' b' ais' fis'\) \clef "bass" ais\( b |
 
-  \clef "bass" fis'8-> ais b dis'-> ais b |
+  fis'8-> ais b dis'-> ais b |
   fis'-> ais b dis'-> ais b |
   e'-> dis' b ais b dis' |
   e'-> dis' b fis b dis' |

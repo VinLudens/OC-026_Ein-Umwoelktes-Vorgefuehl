@@ -6,12 +6,14 @@ left = \absolute {
   \key gis \minor
   \clef "treble"
 
+  \once\set Staff.ottavation = \markup { \concat { "8" \normal-text \super "1" } }
   \ottava 1
   \once \set PianoStaff.connectArpeggios = ##t
+
   <gis'' dis''' fis'''>2.\arpeggio r4 |
   <fis'' dis''' fis'''>2. r4 |
-  <e'' gis'' b''>2. r4 |
-  \ottava 0 <fis' ais' cis''>2. r4 |
+  <e'' gis'' b''>2. \ottava 0 r4 |
+  <fis' ais' cis''>2. r4 |
 
   \clef "bass"
   b,8 fis b cis' fis'2 |
@@ -290,7 +292,7 @@ left = \absolute {
     \change Staff = "right" \clef "bass" cis'='[ dis cis b fis \change Staff = "left" \normalsize \clef "bass" e cis gis] \cadenzaOff \partial 1024 s1024 |
     cis,2.->\parenthesize\fermata |
 
-    \set tieWaitForNote = ##t \stemDown \grace { e=,8~ b} \stemNeutral <e e,>2 ais=,4 |
+    \set tieWaitForNote = ##t \grace { \stemDown e=,8^~_( b} \stemNeutral <e e,>2) ais=,4 |
     \time 4/4
     b8 dis fis ais \change Staff = "right" \clef "treble" b \change Staff = "left" \clef "treble" dis fis ais |
     \change Staff = "right" b \change Staff = "left" dis fis ais \change Staff = "right" \ottava 1 b dis fis ais |
