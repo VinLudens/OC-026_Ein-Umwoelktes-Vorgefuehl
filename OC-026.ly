@@ -6,6 +6,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   subtitle = "Original Composition No. 26"
   %instrument = "Piano"
   composer = "VinLudens"
+  date = "August 27 2025"
   %arranger = "Arr. by VinLudens"
   tagline = \markup {
     \center-column {
