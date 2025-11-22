@@ -58,6 +58,8 @@ parenmp = #(make-dynamic-script (markup
 
 \editionMod dynamics 102 0/4 music.Dynamics \mp
 
+\editionMod dynamics 107 0/4 music.Dynamics \mp
+
 \editionMod dynamics 164 0/4 music.Dynamics \parenmp
 
 \editionMod dynamics 165 0/4 music.Dynamics \dim
