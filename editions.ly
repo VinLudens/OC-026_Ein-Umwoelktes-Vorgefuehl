@@ -30,7 +30,7 @@ parenmp = #(make-dynamic-script (markup
 \editionMod dynamics 8 2/4 music.Dynamics \sp
 
 \editionMod dynamics 9 0/4 music.Dynamics \mp
-\editionMod tweaks 9 0/4 music.Voice.A \override Script.avoid-slur = #'outside
+\editionMod tweaks 9 1/4 music.Voice.A \override Script.avoid-slur = #'outside
 \editionMod tweaks 9 0/4 music.Voice.A \override Script.slur-padding = #0.4
 
 \editionMod tweaks 24 2/4 music.Voice.A \shape #'(((0 . 0) (1 . 0.2) (2 . 0.6) (2.6 . 0)) ()) PhrasingSlur

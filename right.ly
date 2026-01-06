@@ -12,8 +12,8 @@ right = \absolute {
 
   <ais'''>16\arpeggio\(  b''' dis'''' ais''' b''' fis'''' ais''' b''' dis''''8.\) ais'''16\( b''' dis'''' ais''' b''' |
   fis'''' ais''' b''' dis'''' ais''' b''' ais'''' b'''' ~ 8.\) ais''''16\( b'''' ais'''' fis'''' cis'''' |
-  ais''' b''' dis'''' fis''' gis''' b''' dis''' e''' ais'''8.\) \footnote "2" #'(1 . -2) \markup { \super "2" "Originally indicated ottava 15 if played according to" \super 1 } ais'''16\( b''' ais''' fis''' cis''' |
-  \ottava 0 ais'' b'' dis''' fis'' gis'' b'' dis'' e'' ais''8.\) ais''16\( b'' ais'' fis'' cis'' |
+  ais''' b''' dis'''' fis''' gis''' b''' dis''' e''' ais'''8.\) ais'''16\( b''' ais''' fis''' cis''' |
+  \ottava 0 ais'' b'' dis''' fis'' gis'' b'' dis'' e'' \footnote "2" #'(0.7 . 1.3) \markup { \super "2" "Ottava ends here if played according to" \super 1 } ais''8.\) ais''16\( b'' ais'' fis'' cis'' |
 
 
   ais'16 b' dis'' b' cis'' fis'' cis'' fis'' ais''8.\) ais''16\( b'' ais'' fis'' cis'' |
@@ -137,7 +137,7 @@ right = \absolute {
     <b gis e>4. cis4 dis8 |
     <gis, dis b>2\) ais8\( b |
 
-    dis2.-_ |
+    dis2. |
     r4. ais8-_ b-_ cis~ |
     4. b8-_ ais-_ b~ |
     2\) ais8-_\( b-_ |
@@ -147,7 +147,7 @@ right = \absolute {
     b4.-_ cis4-_ dis8-_ |
     gis,2-_\) ais8-_\( b-_ |
 
-    dis2.-_ |
+    dis2. |
     r4. ais8-_ b-_ cis~ |
     4. b8-_ ais-_ b~ |
     2\) ais8-_\( b-_ |
@@ -229,9 +229,9 @@ right = \absolute {
     fis8-> ais, b dis-> ais b |
     fis'-> ais, b dis-> ais b |
     ais' b ais fis cis ais |
-    ais b ais fis\) ais,\( b |
+    ais b ais fis\) \clef "bass" ais,\( b |
 
-    \clef "bass" fis'8-> ais, b dis-> ais b |
+    fis'8-> ais, b dis-> ais b |
     fis'-> ais, b dis-> ais b |
     e-> dis b ais b dis |
     e-> dis b fis b dis |

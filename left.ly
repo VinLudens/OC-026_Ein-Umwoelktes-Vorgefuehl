@@ -19,7 +19,7 @@ left = \absolute {
   b,8 fis b cis' fis'2 |
   dis8 ais dis' fis' ais'2 |
   gis,8 dis gis b dis'4. fis,8 |
-  e,8 b, e gis <e fisis>2 |
+  e,8 b, e gis <e fisis>4 r |
 
   \bar "||"
   \time 3/4
@@ -43,7 +43,7 @@ left = \absolute {
   gis4-. dis'-.fis'-. |
   fis-. dis'-. fis'-. |
   cis-. gis-. e'-. |
-  cis-. gis-. e'-. |
+  cis-. gis-. e'\parenthesize-. |
 
   \clef "treble" gis'4 dis'' fis'' |
   fis' dis'' fis'' |
@@ -209,7 +209,7 @@ left = \absolute {
     e,4-. b'-. dis-. |
     dis,-. ais'-. cis-. |
     cis,-. gis'-. e'-. |
-    gis,,-. dis'-. b'-. |
+    gis,,-. dis'-. b'\parenthesize-. |
 
     \clef "treble" e4 b' dis |
     dis, ais' cis |
